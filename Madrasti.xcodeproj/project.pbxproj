@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		850D465B271EFB5F00F3B66E /* test4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		850D465B271EFB5F00F3B66E /* Madrasti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Madrasti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		850D465E271EFB5F00F3B66E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		850D4660271EFB5F00F3B66E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		850D4662271EFB5F00F3B66E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		850D4667271EFB6700F3B66E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		850D466A271EFB6700F3B66E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		850D466C271EFB6700F3B66E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		850D4671271EFB6800F3B66E /* test4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		850D4671271EFB6800F3B66E /* MadrastiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadrastiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		850D4675271EFB6800F3B66E /* test4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test4Tests.swift; sourceTree = "<group>"; };
-		850D467B271EFB6800F3B66E /* test4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		850D467B271EFB6800F3B66E /* MadrastiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadrastiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		850D467F271EFB6800F3B66E /* test4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test4UITests.swift; sourceTree = "<group>"; };
 		850D4681271EFB6800F3B66E /* test4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test4UITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +89,9 @@
 		850D465C271EFB5F00F3B66E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				850D465B271EFB5F00F3B66E /* test4.app */,
-				850D4671271EFB6800F3B66E /* test4Tests.xctest */,
-				850D467B271EFB6800F3B66E /* test4UITests.xctest */,
+				850D465B271EFB5F00F3B66E /* Madrasti.app */,
+				850D4671271EFB6800F3B66E /* MadrastiTests.xctest */,
+				850D467B271EFB6800F3B66E /* MadrastiUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,9 +130,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		850D465A271EFB5F00F3B66E /* test4 */ = {
+		850D465A271EFB5F00F3B66E /* Madrasti */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 850D4685271EFB6800F3B66E /* Build configuration list for PBXNativeTarget "test4" */;
+			buildConfigurationList = 850D4685271EFB6800F3B66E /* Build configuration list for PBXNativeTarget "Madrasti" */;
 			buildPhases = (
 				850D4657271EFB5F00F3B66E /* Sources */,
 				850D4658271EFB5F00F3B66E /* Frameworks */,
@@ -142,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = test4;
+			name = Madrasti;
 			productName = test4;
-			productReference = 850D465B271EFB5F00F3B66E /* test4.app */;
+			productReference = 850D465B271EFB5F00F3B66E /* Madrasti.app */;
 			productType = "com.apple.product-type.application";
 		};
-		850D4670271EFB6800F3B66E /* test4Tests */ = {
+		850D4670271EFB6800F3B66E /* MadrastiTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 850D4688271EFB6800F3B66E /* Build configuration list for PBXNativeTarget "test4Tests" */;
+			buildConfigurationList = 850D4688271EFB6800F3B66E /* Build configuration list for PBXNativeTarget "MadrastiTests" */;
 			buildPhases = (
 				850D466D271EFB6800F3B66E /* Sources */,
 				850D466E271EFB6800F3B66E /* Frameworks */,
@@ -160,14 +160,14 @@
 			dependencies = (
 				850D4673271EFB6800F3B66E /* PBXTargetDependency */,
 			);
-			name = test4Tests;
+			name = MadrastiTests;
 			productName = test4Tests;
-			productReference = 850D4671271EFB6800F3B66E /* test4Tests.xctest */;
+			productReference = 850D4671271EFB6800F3B66E /* MadrastiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		850D467A271EFB6800F3B66E /* test4UITests */ = {
+		850D467A271EFB6800F3B66E /* MadrastiUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 850D468B271EFB6800F3B66E /* Build configuration list for PBXNativeTarget "test4UITests" */;
+			buildConfigurationList = 850D468B271EFB6800F3B66E /* Build configuration list for PBXNativeTarget "MadrastiUITests" */;
 			buildPhases = (
 				850D4677271EFB6800F3B66E /* Sources */,
 				850D4678271EFB6800F3B66E /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				850D467D271EFB6800F3B66E /* PBXTargetDependency */,
 			);
-			name = test4UITests;
+			name = MadrastiUITests;
 			productName = test4UITests;
-			productReference = 850D467B271EFB6800F3B66E /* test4UITests.xctest */;
+			productReference = 850D467B271EFB6800F3B66E /* MadrastiUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 850D4656271EFB5F00F3B66E /* Build configuration list for PBXProject "test4" */;
+			buildConfigurationList = 850D4656271EFB5F00F3B66E /* Build configuration list for PBXProject "Madrasti" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				850D465A271EFB5F00F3B66E /* test4 */,
-				850D4670271EFB6800F3B66E /* test4Tests */,
-				850D467A271EFB6800F3B66E /* test4UITests */,
+				850D465A271EFB5F00F3B66E /* Madrasti */,
+				850D4670271EFB6800F3B66E /* MadrastiTests */,
+				850D467A271EFB6800F3B66E /* MadrastiUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		850D4673271EFB6800F3B66E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 850D465A271EFB5F00F3B66E /* test4 */;
+			target = 850D465A271EFB5F00F3B66E /* Madrasti */;
 			targetProxy = 850D4672271EFB6800F3B66E /* PBXContainerItemProxy */;
 		};
 		850D467D271EFB6800F3B66E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 850D465A271EFB5F00F3B66E /* test4 */;
+			target = 850D465A271EFB5F00F3B66E /* Madrasti */;
 			targetProxy = 850D467C271EFB6800F3B66E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -506,7 +506,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test4.app/test4";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Madrasti.app/Madrasti";
 			};
 			name = Debug;
 		};
@@ -530,7 +530,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test4.app/test4";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Madrasti.app/Madrasti";
 			};
 			name = Release;
 		};
@@ -581,7 +581,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		850D4656271EFB5F00F3B66E /* Build configuration list for PBXProject "test4" */ = {
+		850D4656271EFB5F00F3B66E /* Build configuration list for PBXProject "Madrasti" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				850D4683271EFB6800F3B66E /* Debug */,
@@ -590,7 +590,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		850D4685271EFB6800F3B66E /* Build configuration list for PBXNativeTarget "test4" */ = {
+		850D4685271EFB6800F3B66E /* Build configuration list for PBXNativeTarget "Madrasti" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				850D4686271EFB6800F3B66E /* Debug */,
@@ -599,7 +599,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		850D4688271EFB6800F3B66E /* Build configuration list for PBXNativeTarget "test4Tests" */ = {
+		850D4688271EFB6800F3B66E /* Build configuration list for PBXNativeTarget "MadrastiTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				850D4689271EFB6800F3B66E /* Debug */,
@@ -608,7 +608,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		850D468B271EFB6800F3B66E /* Build configuration list for PBXNativeTarget "test4UITests" */ = {
+		850D468B271EFB6800F3B66E /* Build configuration list for PBXNativeTarget "MadrastiUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				850D468C271EFB6800F3B66E /* Debug */,
